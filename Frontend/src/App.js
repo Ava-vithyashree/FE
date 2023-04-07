@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        <Route exact path='/grid' element={<ForkliftGrid/>}></Route>
+        <Route exact path='/' element={<ForkliftGrid/>}></Route>
         <Route path='/form' element={<ForkliftForm />}></Route>
         <Route path='/form/:id' element={<ForkliftForm />}></Route>
         <Route path='/form/:view/:id' element={<ForkliftForm />}></Route>
