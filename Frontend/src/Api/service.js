@@ -6,7 +6,7 @@ export async function getTrailerDetails(searchValue,page,order)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/gettrailerdetails?value=${searchValue}&start=${page}&order=${order}`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/gettrailerdetails?value=${searchValue}&start=${page}&order=${order}`,
         header:
         {
             "content-type" : "application/json",
@@ -25,7 +25,7 @@ export async function deleteTrailerDetailsById(id)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/deletetrailerdetailsbyid?id=${id}`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/deletetrailerdetailsbyid?id=${id}`,
         header:
         {
             "content-type" : "application/json",
@@ -44,7 +44,7 @@ export async function getServiceCenterData()
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/getservicecenterdata`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/getservicecenterdata`,
         header:
         {
             "content-type" : "application/json",
@@ -63,7 +63,7 @@ export async function getTrailerDetailsById(id)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/gettrailerdetailsbyid/${id}`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/gettrailerdetailsbyid/${id}`,
         header:
         {
             "content-type" : "application/json",
@@ -82,7 +82,7 @@ export async function insertTrailerDetails(trailerDetails)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/inserttrailerdetails`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/inserttrailerdetails`,
         header:
         {
             "content-type" : "application/json",
@@ -101,7 +101,7 @@ export async function updateTrailerDetails(trailerDetails)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/updatetrailerdetails`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/updatetrailerdetails`,
         header:
         {
             "content-type" : "application/json",
@@ -117,7 +117,7 @@ export async function searchTrailerDetails(value)
 {
     let config =
     {
-        url : `https://flm-np-uks-as.azurewebsites.net/searchtrailerdetails?value=${value}`,
+        url : `https://flm-eus-uae-be.azurewebsites.net/forklift/searchtrailerdetails?value=${value}`,
         header:
         {
             "content-type" : "application/json",
